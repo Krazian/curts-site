@@ -1,0 +1,83 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	margin: 0px;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+#splash-background{
+	background-image: image-url("white-bg.jpg");
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+	background-size: cover;
+  height:100vh;
+}
+#splash-menu{
+  background-color: #b7b2b0;
+  height: 100%;
+  width: 100%;
+  opacity: .3;
+}
+#splash-enter{
+  left: 50%;
+	position: absolute;
+  top: 40%;
+  width:100%;
+  z-index: 10;
+}
+#splash-enter h1{
+	color:white;
+	font-size:60px;
+	margin-bottom:0px;
+	margin-left:-5px;
+}
+#splash-enter h2{
+	color:white;
+	font-size:22px;
+	letter-spacing: .14em;
+	line-height: 1em;
+	margin-top:0px;
+}
+#enter{
+	background-color:white;
+	border:none;
+	border-radius: 0px;
+	color:black;
+	font-weight:700;
+}
+.inline-buttons i{
+	color:white;
+	font-size: 20px;
+	margin: 0 10px;
+}
+.site-logo h1{
+	  margin: 0;
+    font-family: "proxima-nova";
+    line-height: 1.2em;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 36px;
+    display: inline-block;
+}
+.site-logo p{
+	color: #9c9c9c;
+	font-size: .7em;
+}
+.nav-bar{
+	margin-top: 10px;
+}
+.nav-bar a{
+	color: #9c9c9c;
+	font-size: .8em;
+	margin: 0px 10px;
+}
+.nav-bar a:hover{
+	color: black;
+	text-decoration: none;
+}
+.content{
+	margin-top:5em;
+}
+.content div p{
+	font-size:13px;
+}
