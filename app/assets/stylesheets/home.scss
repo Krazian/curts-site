@@ -81,3 +81,10 @@ body{
 .content div p{
 	font-size:13px;
 }
+.about-images{
+	background-size: contain;
+  height: 500px !important;
+  width: 100% !important;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
